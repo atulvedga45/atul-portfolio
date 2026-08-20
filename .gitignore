@@ -1,0 +1,18 @@
+# Environments
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+
+# macOS
+.DS_Store
