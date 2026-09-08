@@ -22,10 +22,10 @@ export default function About() {
     'RAG',
     'PostgreSQL',
     'Machine Learning',
-    'NLP',
+    'GitLab',
     'Tailwind CSS',
-    'SQLAlchemy',
-    'JWT Auth',
+    'JavaScript',
+    'MySQL',
     'Git & GitHub',
   ];
 

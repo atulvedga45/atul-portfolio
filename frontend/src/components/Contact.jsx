@@ -192,7 +192,7 @@ export default function Contact() {
                 <input
                   required
                   type="text"
-                  placeholder="Peter Parker"
+                  placeholder="Atul Vedga"
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm font-medium focus:outline-none focus:border-[#a31515] focus:ring-1 focus:ring-[#a31515] transition-all"
@@ -206,7 +206,7 @@ export default function Contact() {
                 <input
                   required
                   type="email"
-                  placeholder="peter@stark.com"
+                  placeholder="atul@45.com"
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm font-medium focus:outline-none focus:border-[#a31515] focus:ring-1 focus:ring-[#a31515] transition-all"
