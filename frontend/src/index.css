@@ -58,3 +58,50 @@
 .red-glow-lg {
   box-shadow: 0 0 40px rgba(163, 21, 21, 0.6);
 }
+
+/* Custom Cursor Rules */
+@media (hover: hover) and (pointer: fine) {
+  body.custom-cursor-active,
+  body.custom-cursor-active a,
+  body.custom-cursor-active button,
+  body.custom-cursor-active input,
+  body.custom-cursor-active textarea,
+  body.custom-cursor-active select,
+  body.custom-cursor-active [role="button"] {
+    cursor: none !important;
+  }
+}
+
+/* Spider-sense Click Shockwave Ripple */
+.spider-click-ripple {
+  position: fixed;
+  pointer-events: none;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ef4444;
+  box-shadow: 0 0 15px #ef4444, inset 0 0 10px #a31515;
+  animation: spider-ripple-expand 0.65s cubic-bezier(0.1, 0.8, 0.3, 1) forwards;
+  z-index: 99999;
+}
+
+@keyframes spider-ripple-expand {
+  0% {
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(0.5);
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    width: 130px;
+    height: 130px;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1);
+    border-width: 1px;
+  }
+}
+
